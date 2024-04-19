@@ -43,5 +43,16 @@ console.log(valueInNumber5);
 
 // Akoi bhabe jodi kono Bulion value jodi thakto jemon true kinba false , tahole true->1, ar false->0 asbe .
 
-// Jodi string o thake taholeo NaN asbe . 
+// Jodi "string" o thake taholeo NaN asbe . 
 
+// "33" =>33
+// "33abc" =>NaN
+
+
+
+// convert Number to String 
+let myNumber = 88
+console.log(typeof myNumber);
+let stringNumber = String(myNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);//converted to string 
