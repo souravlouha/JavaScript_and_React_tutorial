@@ -11,3 +11,4 @@
 //object =>
 
 console.log(typeof "sourav"); // typeof ar sahajee amra console.log ar bhetore ja ache tar type jante pari , jemon ai khane amra "sourav" ar type je string se ta jante parlam .
+console.log(typeof "null"); // typeof null lekha asbe "object".
