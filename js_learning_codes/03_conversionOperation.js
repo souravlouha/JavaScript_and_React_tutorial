@@ -1,3 +1,5 @@
+/*
+
 let score = 33
 let score2 = "44"
 let score3 = "45abc" // keu hoy to ai bhabe number put koreche ,but ata to Number ar catagory te pore na .but dekha jak ki ase console.log kore .
@@ -56,3 +58,17 @@ console.log(typeof myNumber);
 let stringNumber = String(myNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);//converted to string 
+
+
+
+
+*/
+
+//*********************************** Operations****************************************//
+
+
+
+let value =3;
+let negValue =  -value;
+console.log(negValues);
+
