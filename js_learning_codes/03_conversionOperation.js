@@ -1,4 +1,3 @@
-/*
 
 let score = 33
 let score2 = "44"
@@ -62,7 +61,7 @@ console.log(typeof stringNumber);//converted to string
 
 
 
-*/
+
 
 //*********************************** Operations****************************************//
 
@@ -72,3 +71,20 @@ let value =3;
 let negValue =  -value;
 console.log(negValue);
 
+// and thats way we can add two strings together.
+
+let str1 = "sourav"
+let str2 = "louha"
+
+let str3 = str1 + str2
+console.log(str3);
+
+
+// amra dekhbo je string a o kichu problem ache , jemno "1" -> ake akti string banano holo , akti number theke .
+
+console.log( "1" + 2 ); //12
+console.log( 1 + "2" ); //12
+console.log( "1" + 2 + 2 ); //122
+console.log( 1 + 2 + "2" ); //32
+
+// ToPrimitive , bole akti Rules ke mene chole , tar jonno , ati amno babohar kore.
