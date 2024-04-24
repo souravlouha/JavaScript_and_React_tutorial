@@ -70,5 +70,5 @@ console.log(typeof stringNumber);//converted to string
 
 let value =3;
 let negValue =  -value;
-console.log(negValues);
+console.log(negValue);
 
