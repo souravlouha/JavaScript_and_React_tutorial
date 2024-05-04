@@ -44,3 +44,9 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId); // false
 
+
+
+/* ************************  Non-primitive(Reference) data types****************************************/
+
+
+
