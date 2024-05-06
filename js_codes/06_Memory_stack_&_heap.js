@@ -29,3 +29,6 @@ console.log(userTwo.email);
 
 //  stack ar modhhe amra ja dibo , seta amra akta copy pabo 
 // kintu jodi amra heap ar modhhe kichu dei tahole amra setar refarence pabo .
+
+
+
