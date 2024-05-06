@@ -49,4 +49,81 @@ console.log(id === anotherId); // false
 /* ************************  Non-primitive(Reference) data types****************************************/
 
 
+//Here is a simple example of a non-preemptive array in JavaScript:
 
+// Create an array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// Access the first element of the array
+const firstFruit = fruits[0];
+
+// Access the last element of the array
+const lastFruit = fruits[fruits.length - 1];
+
+// Loop through the array and print each element
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+// Output:
+// Banana
+// Orange
+// Apple
+// Mango
+
+
+
+//Here is a simple example of non-preemptive objects in JavaScript:
+
+// basicaly kono carley bracket {} ar bhetore ja thake takei object bola hoy , akhon ai bracket ar bhetore, je kono kichui thakte pare , dataType je kono kichu hote pare,  string hote pare , number hote pare , function o hote pare . 
+
+// Create a non-preemptive object
+const object = {
+      name: 'John Doe',
+      age: 30,
+      occupation: 'Software Engineer',
+    };
+    
+    // Try to change the name property
+    object.name = 'Jane Doe';
+    
+    // The name property will not be changed
+    console.log(object.name); // 'John Doe'
+
+
+// Here is a simple example of a non-preemptive function in JavaScript:
+
+function nonPreemptiveFunction(callback) {
+      // Disable interrupts
+      // Execute the callback function
+      callback();
+      // Enable interrupts
+    }
+    
+    // Usage:
+    nonPreemptiveFunction(function() {
+      // Do something that should not be interrupted
+    });
+
+
+     // Important note 
+    // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+    /*
+
+    ********
+The typeof Operator
+
+Type of val	Result
+Undefined  --->	"undefined"
+Null	     --->   "object"
+Boolean    --->   "boolean"
+Number     --->   "number"
+String     --->   "string"
+Object (native and does not implement [[Call]])	      ---> "object"
+Object (native or host and does implement [[Call]])	---> "function"
+Object (host and does not implement [[Call]])	Implementation-defined except may not be     
+      ---> "undefined", "boolean", "number", or "string".
+
+
+    */
