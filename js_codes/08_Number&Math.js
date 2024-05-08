@@ -20,4 +20,7 @@ console.log(balance.toFixed(4)); // 4 ghor obdhi
 
 const otherNumber = 45.23387
 
-console.log(otherNumber.toPrecision(2));
+console.log(otherNumber.toPrecision(2)); //45
+console.log(otherNumber.toPrecision(5)); //45.233
+// ar madhhome , kono asign kora valur koto gulo number nite hobe setar jonno , babohar kora hoy .
+
