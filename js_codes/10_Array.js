@@ -23,6 +23,7 @@ JavaScript array-copy operations create shallow copies. (All standard built-in c
  console.log(myArr2[2]);
 
 
+<<<<<<< HEAD
 // some methods of arrays
 // Push and Pop 
 myArr.push(6)
@@ -30,3 +31,12 @@ console.log(myArr);
 
 myArr.pop() // pop method use jab hum log karte hai to pop kuch vi nahi dekh kar sabse last wala value delet kardeta hai 
  console.log(myArr);
+=======
+
+
+
+
+
+
+
+>>>>>>> 692bf6be0e0a79c88df11f6e249109637d32b54f
