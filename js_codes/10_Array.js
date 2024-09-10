@@ -32,3 +32,15 @@ console.log(myArr);
 myArr.pop() // pop method use jab hum log karte hai to pop kuch vi nahi dekh kar sabse last wala value delet kardeta hai 
  console.log(myArr);
 
+
+
+
+myArr.unshift(6) // unshift method use
+console.log(myArr);
+// unshift method use basically for any value , that is inserted into the () brackets ; that value will be inserted in the first position of the exsisting array . like [1,2,3 ] ; after that myArr.unshift(4) , and then output is [4,1,2,3] 
+
+
+myArr.shift() // shift method use
+console.log(myArr);
+
+// shift method use basically for any value , that is removed from the array ; that value will be removed from the first position of the exsisting array . like [4,1,2,3 ] ; after that myArr.shift() , and then output is [1,2,3]
