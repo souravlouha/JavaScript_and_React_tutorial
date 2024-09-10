@@ -44,3 +44,4 @@ myArr.shift() // shift method use
 console.log(myArr);
 
 // shift method use basically for any value , that is removed from the array ; that value will be removed from the first position of the exsisting array . like [4,1,2,3 ] ; after that myArr.shift() , and then output is [1,2,3]
+
