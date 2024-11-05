@@ -1,4 +1,4 @@
-oooooooooooook
+oooooooooooooook
 const myArr = [0,1, 2, 3, 4, 5]
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
