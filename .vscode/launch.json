@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "a",
+      "request": "launch",
+      "mainClass": "a",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
       "name": "SumNumbers",
       "request": "launch",
       "mainClass": "SumNumbers",
