@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "num",
+      "request": "launch",
+      "mainClass": "num",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
+      "name": "TwoNumber_sumOtherWay",
+      "request": "launch",
+      "mainClass": "TwoNumber_sumOtherWay",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
+      "name": "r",
+      "request": "launch",
+      "mainClass": "r",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
+      "name": "SumOfTwoNumbers",
+      "request": "launch",
+      "mainClass": "SumOfTwoNumbers",
+      "projectName": "js_tutorial_fdf3b6a8"
+    },
+    {
+      "type": "java",
       "name": "a",
       "request": "launch",
       "mainClass": "a",
