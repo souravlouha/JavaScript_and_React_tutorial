@@ -1,3 +1,4 @@
+package Random_JavaFiels;
 import java.util.Scanner;
 
 public class SumOfTwoNumbers {

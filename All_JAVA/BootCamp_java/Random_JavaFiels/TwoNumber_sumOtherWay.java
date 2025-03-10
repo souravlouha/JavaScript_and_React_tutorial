@@ -1,3 +1,4 @@
+package Random_JavaFiels;
 class NumberDetails {
 
   private int number;
