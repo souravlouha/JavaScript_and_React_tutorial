@@ -1,6 +1,6 @@
-package Backend_Connect_to_Database;// atao default package name
+//package Backend_Connect_to_Database;// atao default package name
 
-//package mypack; // besicaly in this stage , package default name is file names. 
+package mypack; // besicaly in this stage , package default name is file names. 
 //Mane ai package ar name hoy , File ar name anusare .
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
