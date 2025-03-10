@@ -1,6 +1,7 @@
 # Backend_Connect_to_Database
 ### Using java program and taking input from the user , students basic details update to Database.
 ### Here the backend Java code is linked to the database.
+### Tools Required for project -> 1.Eclipse IDE or Eclipse workspace ; 2.using XAMPP as the Database
 ### In the first image,Here the database is created, the file name of that database is given as tmsl data, and the details of the students will be taken inside that tmsl data file. We will create columns here and create tables, in which the table will first have role, then name then email then mobile and then age.
 
 ![Screenshot (224)](https://github.com/user-attachments/assets/48ec32eb-eb95-446c-a6bf-eaeac2d77b10)
